@@ -1,0 +1,17 @@
+{
+  "name": "wordfinder",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.4",
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.14",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  }
+}
